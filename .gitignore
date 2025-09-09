@@ -1,8 +1,15 @@
-# Ignore all files in data directory but keep folder structure
-data/*
+# Ignore all CSV and XLSX files in data directory but keep folder structure
+data/*.csv
+data/*.xlsx
+data/exported/*.csv
+data/exported/*.xlsx
+data/exported/chunks/*.csv
+data/exported/chunks/*.xlsx
+
+# Keep folder structure
 !data/exported/
 !data/exported/chunks/
-data/exported/chunks/*
+
 
 # Ignore common Python cache files
 __pycache__/
