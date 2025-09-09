@@ -1,0 +1,31 @@
+# Ignore all files in data directory but keep folder structure
+data/*
+!data/exported/
+!data/exported/chunks/
+data/exported/chunks/*
+
+# Ignore common Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Ignore virtual environments
+venv/
+env/
+ENV/
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.log
